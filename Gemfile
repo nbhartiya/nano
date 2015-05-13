@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # React Stuff
 gem 'react-rails', '~> 1.0'
+gem "bower-rails", "~> 0.9.2"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
