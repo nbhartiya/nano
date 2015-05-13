@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  resources :pets
 
+  resources :cats
+
+  get 'show', to: "pets#show"
+  put 'update', to: "pets#update"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
